@@ -8,10 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens:{
+        "xs":"480px",
+        "sm":"640px",
+        "md":"768px",
+        "lg":"1024"
+      },
+      fontFamily: {
+        'segoe': ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "form-bg": "url('/bg.jpg')", 
       },
     },
   },
