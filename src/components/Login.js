@@ -80,7 +80,7 @@ export default function Login() {
 
               <div className="mt-3">
                 <Link href="/" className="text-[12px] text-blue-400">
-                  Can't access your account?
+                  Can&apos;t access your account?
                 </Link>
               </div>
 
