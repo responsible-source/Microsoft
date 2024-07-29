@@ -42,7 +42,7 @@ export default function Login() {
                 </div>
 
                 <div className="mt-2">
-                <Link href='/' className="text-[10px] md:text-[11px] font-normal text-[#0067B8] font-segoe">Email Code to the {`${mail}`}</Link>
+                <Link href='/' className="text-[10px] md:text-[11px] font-normal text-[#0067B8] font-segoe">Email Code to {`${mail}`}</Link>
                 </div>
 
                 <div className="flex justify-end mt-3">

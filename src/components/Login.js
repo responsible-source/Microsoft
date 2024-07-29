@@ -75,7 +75,7 @@ export default function Login() {
 
               <div className="flex gap-1 mt-3">
                 <p className="text-[11px]">No account?</p>
-                <Link className="text-[11px] text-blue-400">Create one!</Link>
+                <Link href="/" className="text-[11px] text-blue-400">Create one!</Link>
               </div>
 
               <div className="mt-3">
