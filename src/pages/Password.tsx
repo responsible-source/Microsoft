@@ -2,10 +2,17 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Login() {
-    const mail = localStorage.getItem("MicrosoftEmail")
+    const[mail, Setmail] = useState('');
+
+    useEffect(()=>{
+      const storedMail =localStorage.getItem("MicrosoftEmail");
+      if(storedMail){
+        Setmail(storedMail);
+      }
+    }, []);
 
     const handleClick = (e:any) =>{
       e.preventDefault()
