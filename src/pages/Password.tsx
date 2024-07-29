@@ -36,7 +36,7 @@ export default function Login() {
                 </div>
 
                 <div>
-                    <h3 className="text-xl font-semibold pt-2">Enter Password</h3>
+                    <h3 className="text-xl font-semibold pt-2">Enter password</h3>
                 </div>
 
                 <div className="mt-3">
